@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pulpino_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_adbg_axi_biu_sv " />
+            <top_module name="glbl" />
+            <top_module name="pkg_i2c_model" />
+            <top_module name="tb_pulpino" />
+            <top_module name="zeroriscy_defines" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="216666fs"></ZoomStartTime>
+      <ZoomEndTime time="5976667fs"></ZoomEndTime>
+      <Cursor1Time time="1000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="283"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="47" />
+   <wvobject fp_name="/tb_pulpino/top_i/core_region_i/RISCV_CORE/if_stage_i/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/core_region_i/RISCV_CORE/if_stage_i/pc_if_o" type="array">
+      <obj_property name="ElementShortName">pc_if_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_if_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/core_region_i/RISCV_CORE/if_stage_i/instr_rdata_i" type="array">
+      <obj_property name="ElementShortName">instr_rdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_rdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/paddr" type="array">
+      <obj_property name="ElementShortName">paddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">paddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/pwdata" type="array">
+      <obj_property name="ElementShortName">pwdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pwdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/pwrite" type="logic">
+      <obj_property name="ElementShortName">pwrite</obj_property>
+      <obj_property name="ObjectShortName">pwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/psel" type="logic">
+      <obj_property name="ElementShortName">psel</obj_property>
+      <obj_property name="ObjectShortName">psel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/penable" type="logic">
+      <obj_property name="ElementShortName">penable</obj_property>
+      <obj_property name="ObjectShortName">penable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/pstrb" type="array">
+      <obj_property name="ElementShortName">pstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/prdata" type="array">
+      <obj_property name="ElementShortName">prdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/pready" type="logic">
+      <obj_property name="ElementShortName">pready</obj_property>
+      <obj_property name="ObjectShortName">pready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/periph_bus_i/apb_slave/Slave/pslverr" type="logic">
+      <obj_property name="ElementShortName">pslverr</obj_property>
+      <obj_property name="ObjectShortName">pslverr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_clk_i" type="logic">
+      <obj_property name="ElementShortName">p_clk_i</obj_property>
+      <obj_property name="ObjectShortName">p_clk_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_rst_n_i" type="logic">
+      <obj_property name="ElementShortName">p_rst_n_i</obj_property>
+      <obj_property name="ObjectShortName">p_rst_n_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_addr_i" type="array">
+      <obj_property name="ElementShortName">p_addr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p_addr_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_sel_i" type="logic">
+      <obj_property name="ElementShortName">p_sel_i</obj_property>
+      <obj_property name="ObjectShortName">p_sel_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_enable_i" type="logic">
+      <obj_property name="ElementShortName">p_enable_i</obj_property>
+      <obj_property name="ObjectShortName">p_enable_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_write_i" type="logic">
+      <obj_property name="ElementShortName">p_write_i</obj_property>
+      <obj_property name="ObjectShortName">p_write_i</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_strb_i" type="array">
+      <obj_property name="ElementShortName">p_strb_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">p_strb_i[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_wdata_i" type="array">
+      <obj_property name="ElementShortName">p_wdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p_wdata_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_slverr_o" type="logic">
+      <obj_property name="ElementShortName">p_slverr_o</obj_property>
+      <obj_property name="ObjectShortName">p_slverr_o</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_ready_o" type="logic">
+      <obj_property name="ElementShortName">p_ready_o</obj_property>
+      <obj_property name="ObjectShortName">p_ready_o</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/p_rdata_o" type="array">
+      <obj_property name="ElementShortName">p_rdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p_rdata_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/slverr" type="logic">
+      <obj_property name="ElementShortName">slverr</obj_property>
+      <obj_property name="ObjectShortName">slverr</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:35][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:35][7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/i" type="array">
+      <obj_property name="ElementShortName">i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i[5:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuz_reset" type="logic">
+      <obj_property name="ElementShortName">kuz_reset</obj_property>
+      <obj_property name="ObjectShortName">kuz_reset</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuz_request" type="logic">
+      <obj_property name="ElementShortName">kuz_request</obj_property>
+      <obj_property name="ObjectShortName">kuz_request</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuz_ack" type="logic">
+      <obj_property name="ElementShortName">kuz_ack</obj_property>
+      <obj_property name="ObjectShortName">kuz_ack</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuz_data_i" type="array">
+      <obj_property name="ElementShortName">kuz_data_i[127:0]</obj_property>
+      <obj_property name="ObjectShortName">kuz_data_i[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuz_data_o" type="array">
+      <obj_property name="ElementShortName">kuz_data_o[127:0]</obj_property>
+      <obj_property name="ObjectShortName">kuz_data_o[127:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuz_busy" type="logic">
+      <obj_property name="ElementShortName">kuz_busy</obj_property>
+      <obj_property name="ObjectShortName">kuz_busy</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuz_valid" type="logic">
+      <obj_property name="ElementShortName">kuz_valid</obj_property>
+      <obj_property name="ObjectShortName">kuz_valid</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/resetn_i" type="logic">
+      <obj_property name="ElementShortName">resetn_i</obj_property>
+      <obj_property name="ObjectShortName">resetn_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/request_i" type="logic">
+      <obj_property name="ElementShortName">request_i</obj_property>
+      <obj_property name="ObjectShortName">request_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/ack_i" type="logic">
+      <obj_property name="ElementShortName">ack_i</obj_property>
+      <obj_property name="ObjectShortName">ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/busy_o" type="logic">
+      <obj_property name="ElementShortName">busy_o</obj_property>
+      <obj_property name="ObjectShortName">busy_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/valid_o" type="logic">
+      <obj_property name="ElementShortName">valid_o</obj_property>
+      <obj_property name="ObjectShortName">valid_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/data_o" type="array">
+      <obj_property name="ElementShortName">data_o[127:0]</obj_property>
+      <obj_property name="ObjectShortName">data_o[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/L_counter" type="array">
+      <obj_property name="ElementShortName">L_counter[4:0]</obj_property>
+      <obj_property name="ObjectShortName">L_counter[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/peripherals_i/apb_cipher_i/kuznechik/round_counter" type="array">
+      <obj_property name="ElementShortName">round_counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">round_counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pulpino/top_i/core_region_i/RISCV_CORE/id_stage_i/registers_i/rf_reg" type="array">
+      <obj_property name="ElementShortName">rf_reg[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_reg[31:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>

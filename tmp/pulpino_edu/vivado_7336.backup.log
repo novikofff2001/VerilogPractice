@@ -1,0 +1,683 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May  5 13:33:36 2022
+# Process ID: 7336
+# Current directory: C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18276 C:\Users\hepoh\pulpino_edu\tmp\pulpino_edu\pulpino_edu.xpr
+# Log file: C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/vivado.log
+# Journal file: C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/root/Desktop/pulpino_edu/tmp/pulpino_edu' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/hepoh/pulpino_edu/sw/pulpino_data.dat', nor could it be found using path 'C:/Users/root/Desktop/pulpino_edu/sw/pulpino_data.dat'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/hepoh/pulpino_edu/sw/pulpino_text.dat', nor could it be found using path 'C:/Users/root/Desktop/pulpino_edu/sw/pulpino_text.dat'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'pulpino_edu.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_pulpino' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.sim/sim_1/behav/xsim/pulpino_data.dat'
+INFO: [SIM-utils-43] Exported 'C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.sim/sim_1/behav/xsim/pulpino_text.dat'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_pulpino_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_crc32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_crc32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_tap_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_tap_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_full_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_full_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_synchronizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_token_ring
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_din.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_token_ring_fifo_din
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_dout.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_token_ring_fifo_dout
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_axi_biu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_axi_biu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_axi_module.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_axi_module
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_biu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_or1k_biu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_module.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_or1k_module
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_status_reg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_or1k_status_reg
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adbg_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adv_dbg_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adv_dbg_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb2per/apb2per.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb2per
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/includes/apb_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_event_unit/apb_event_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_event_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_fll_if/src/apb_fll_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_fll_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_gpio/rtl/apb_gpio.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_gpio
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_i2c/apb_i2c.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_i2c
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_node/apb_node.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_node
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_node/apb_node_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_node_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_pulpino/apb_pulpino.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_pulpino
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_spi_master/apb_spi_master.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_spi_master
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_timer/apb_timer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apb_timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi2apb/axi2apb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi2apb/axi2apb32.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb32
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/axi2apb_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi2apb_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_AR_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_AR_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_AW_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_AW_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_ArbitrationTree.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ArbitrationTree
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_BR_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_BR_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_BW_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_BW_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_DW_allocator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_DW_allocator
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_FanInPrimitive_Req.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_FanInPrimitive_Req
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_RR_Flag_Req.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_RR_Flag_Req
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_address_decoder_AR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_AR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_address_decoder_AW.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_AW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_address_decoder_BR.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_BR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_address_decoder_BW.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_BW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_address_decoder_DW.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_address_decoder_DW
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_ar_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_ar_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_aw_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_aw_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_b_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_b_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_mem_if_DP/axi_mem_if_SP.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_mem_if_SP
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/axi_mem_if_SP_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_mem_if_SP_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_multiplexer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_multiplexer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_node.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_node
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_node_intf_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_node_intf_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_r_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_r_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_mem_if_DP/axi_read_only_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_read_only_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_request_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_request_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_node/axi_response_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_response_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_single_slice.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_single_slice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_slice.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slice
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_slice_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_slice_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/axi_spi_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_spi_slave
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/axi_spi_slave_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_spi_slave_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice/src/axi_w_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_w_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_mem_if_DP/axi_write_only_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_write_only_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/boot_code.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module boot_code
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/boot_rom_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module boot_rom_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/clk_rst_gen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_rst_gen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/components/cluster_clock_gating.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cluster_clock_gating
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/components/cluster_clock_inverter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cluster_clock_inverter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/components/cluster_clock_mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cluster_clock_mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/core2axi/rtl/core2axi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core2axi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/core2axi_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core2axi_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/core_region.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_region
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_data_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dc_data_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/includes/debug_bus.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/deprecated/fifo_v1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/deprecated/fifo_v2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_v2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/fifo_v3.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo_v3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/deprecated/generic_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module generic_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_event_unit/generic_service_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module generic_service_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/tb/i2c_eeprom_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_buf
+INFO: [VRFC 10-311] analyzing module i2c_model_phy
+INFO: [VRFC 10-311] analyzing module i2c_eeprom_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_i2c/i2c_master_bit_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_bit_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_i2c/i2c_master_byte_ctrl.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_byte_ctrl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/tb/if_spi_slave.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/instr_ram_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_ram_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/onehot_to_bin.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module onehot_to_bin
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/periph_bus_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module periph_bus_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/peripherals.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module peripherals
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/components/pulp_clock_inverter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulp_clock_inverter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/components/pulp_clock_mux2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulp_clock_mux2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/pulpino.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pulpino
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/ram_mux.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram_mux
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/rstgen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rstgen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/rstgen_bypass.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rstgen_bypass
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_event_unit/sleep_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sleep_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/components/sp_ram.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sp_ram
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/rtl/sp_ram_wrap.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sp_ram_wrap
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_spi_master/spi_master_apb_if.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_apb_if
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_master/spi_master_clkgen.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_clkgen
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_master/spi_master_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_master/spi_master_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_master/spi_master_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_master/spi_master_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_master_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_axi_plug.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_axi_plug
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_cmd_parser.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_cmd_parser
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_dc_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_dc_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_regs.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_regs
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_rx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_rx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_syncro.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_syncro
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_spi_slave/spi_slave_tx.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_slave_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_timer/timer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/tb/uart.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/include/zeroriscy_defines.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_alu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_compressed_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_compressed_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_core.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_core
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_cs_registers.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_cs_registers
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_debug_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_debug_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_decoder.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_ex_block.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_ex_block
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_fetch_fifo.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_fetch_fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_id_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_id_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_if_stage.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_if_stage
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_int_controller.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_int_controller
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_load_store_unit.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_load_store_unit
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_multdiv_fast.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_multdiv_fast
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_multdiv_slow.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_multdiv_slow
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_prefetch_buffer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_prefetch_buffer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/zero-riscy/zeroriscy_register_file_ff.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module zeroriscy_register_file
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/hepoh/pulpino_edu/tb/tb_pulpino.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_pulpino
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj tb_pulpino_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/apb_uart.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'apb_uart'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/slib_clock_div.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slib_clock_div'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/slib_counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slib_counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/slib_edge_detect.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slib_edge_detect'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/slib_fifo.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slib_fifo'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/slib_input_filter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slib_input_filter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/slib_input_sync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slib_input_sync'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/slib_mv_filter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slib_mv_filter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/uart_baudgen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_baudgen'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/uart_interrupt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_interrupt'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/uart_receiver.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_receiver'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_uart/uart_transmitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'uart_transmitter'
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 1019.477 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '15' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.sim/sim_1/behav/xsim'
+"xelab -wto c37177a13995426e9f02194940a515a4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_pulpino_behav xil_defaultlib.tb_pulpino xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c37177a13995426e9f02194940a515a4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_pulpino_behav xil_defaultlib.tb_pulpino xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'cpu_clk_i' is not connected on this instance [C:/Users/hepoh/pulpino_edu/rtl/core_region.sv:517]
+Completed static elaboration
+WARNING: [XSIM 43-4455] File "C:/Users/hepoh/pulpino_edu/submodules/pulpino/common_cells/src/onehot_to_bin.sv" Line 34 : Unsupported feature in assertion/property/sequence 'Deferred Assertion is not supported'. It will be ignored.
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adv_dbg_if.sv" Line 11. Module adv_dbg_if(NB_CORES=1,AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_tap_top.v" Line 73. Module adbg_tap_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_top.sv" Line 44. Module adbg_top(NB_CORES=1,AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_axi_module.sv" Line 69. Module adbg_axi_module(AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_axi_biu.sv" Line 66. Module adbg_axi_biu(AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_crc32.v" Line 52. Module adbg_crc32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_module.sv" Line 69. Module adbg_or1k_module(NB_CORES=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_status_reg.sv" Line 68. Module adbg_or1k_status_reg(NB_CORES=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_biu.sv" Line 59. Module adbg_or1k_biu(NB_CORES=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_crc32.v" Line 52. Module adbg_crc32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_din.v" Line 11. Module dc_token_ring_fifo_din(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_full_detector.v" Line 11. Module dc_full_detector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_dout.v" Line 11. Module dc_token_ring_fifo_dout(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer(WIDTH=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_din.v" Line 11. Module dc_token_ring_fifo_din(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_full_detector.v" Line 11. Module dc_full_detector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_dout.v" Line 11. Module dc_token_ring_fifo_dout(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer(WIDTH=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_gpio/rtl/apb_gpio.sv" Line 29. Module apb_gpio doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_event_unit/apb_event_unit.sv" Line 12. Module apb_event_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_fll_if/src/apb_fll_if.sv" Line 11. Module apb_fll_if doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb2per/apb2per.sv" Line 28. Module apb2per(PER_ADDR_WIDTH=15) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adv_dbg_if.sv" Line 11. Module adv_dbg_if(NB_CORES=1,AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_tap_top.v" Line 73. Module adbg_tap_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_top.sv" Line 44. Module adbg_top(NB_CORES=1,AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_axi_module.sv" Line 69. Module adbg_axi_module(AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_axi_biu.sv" Line 66. Module adbg_axi_biu(AXI_DATA_WIDTH=32,AXI_USER_WIDTH=1,AXI_ID_WIDTH=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_crc32.v" Line 52. Module adbg_crc32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_module.sv" Line 69. Module adbg_or1k_module(NB_CORES=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_status_reg.sv" Line 68. Module adbg_or1k_status_reg(NB_CORES=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_or1k_biu.sv" Line 59. Module adbg_or1k_biu(NB_CORES=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/adv_dbg_if/rtl/adbg_crc32.v" Line 52. Module adbg_crc32 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_din.v" Line 11. Module dc_token_ring_fifo_din(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_full_detector.v" Line 11. Module dc_full_detector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_dout.v" Line 11. Module dc_token_ring_fifo_dout(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer(WIDTH=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_din.v" Line 11. Module dc_token_ring_fifo_din(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_full_detector.v" Line 11. Module dc_full_detector doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring_fifo_dout.v" Line 11. Module dc_token_ring_fifo_dout(DATA_WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_token_ring.v" Line 11. Module dc_token_ring doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/axi_slice_dc/dc_synchronizer.v" Line 11. Module dc_synchronizer(WIDTH=8) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "../../../../../../rtl/includes/apb_bus.sv" Line 74. Module APB_BUS doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_gpio/rtl/apb_gpio.sv" Line 29. Module apb_gpio doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_event_unit/apb_event_unit.sv" Line 12. Module apb_event_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb_fll_if/src/apb_fll_if.sv" Line 11. Module apb_fll_if doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/hepoh/pulpino_edu/submodules/pulpino/apb2per/apb2per.sv" Line 28. Module apb2per(PER_ADDR_WIDTH=15) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.$unit_adbg_axi_biu_sv
+Compiling package xil_defaultlib.zeroriscy_defines
+Compiling package xil_defaultlib.pkg_i2c_model
+Compiling module xil_defaultlib.jtag_i
+Compiling module xil_defaultlib.uart_bus(BAUD_RATE=781250)
+Compiling module xil_defaultlib.spi_slave
+Compiling module xil_defaultlib.i2c_buf
+Compiling module xil_defaultlib.i2c_model_phy
+Compiling module xil_defaultlib.i2c_eeprom_model(ADDRESS=7'b1010...
+Compiling module xil_defaultlib.AXI_BUS(AXI_DATA_WIDTH=32,AXI_ID...
+Compiling module xil_defaultlib.AXI_BUS(AXI_DATA_WIDTH=32,AXI_ID...
+Compiling module xil_defaultlib.DEBUG_BUS
+Compiling module xil_defaultlib.rstgen_bypass
+Compiling module xil_defaultlib.rstgen
+Compiling module xil_defaultlib.clk_rst_gen
+Compiling module xil_defaultlib.cluster_clock_gating
+Compiling module xil_defaultlib.zeroriscy_fetch_fifo
+Compiling module xil_defaultlib.zeroriscy_prefetch_buffer
+Compiling module xil_defaultlib.zeroriscy_compressed_decoder
+Compiling module xil_defaultlib.zeroriscy_if_stage
+Compiling module xil_defaultlib.zeroriscy_register_file_default
+Compiling module xil_defaultlib.zeroriscy_decoder
+Compiling module xil_defaultlib.zeroriscy_controller_1
+Compiling module xil_defaultlib.zeroriscy_int_controller
+Compiling module xil_defaultlib.zeroriscy_id_stage
+Compiling module xil_defaultlib.zeroriscy_alu
+Compiling module xil_defaultlib.zeroriscy_multdiv_fast
+Compiling module xil_defaultlib.zeroriscy_ex_block_default
+Compiling module xil_defaultlib.zeroriscy_load_store_unit
+Compiling module xil_defaultlib.zeroriscy_cs_registers_default
+Compiling module xil_defaultlib.zeroriscy_debug_unit
+Compiling module xil_defaultlib.zeroriscy_core_default
+Compiling module xil_defaultlib.core2axi(AXI4_ID_WIDTH=2,AXI4_US...
+Compiling module xil_defaultlib.core2axi_wrap(AXI_USER_WIDTH=1,A...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b01000000,...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b01000000,...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b01000000,DEP...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=2,...
+Compiling module xil_defaultlib.axi_aw_buffer(ID_WIDTH=2,ADDR_WI...
+Compiling module xil_defaultlib.axi_ar_buffer(ID_WIDTH=2,ADDR_WI...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b0100110,D...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b0100110,D...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b0100110,DEPT...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=2,...
+Compiling module xil_defaultlib.axi_w_buffer(DATA_WIDTH=32,USER_...
+Compiling module xil_defaultlib.axi_r_buffer(ID_WIDTH=2,DATA_WID...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b0101,DEPT...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b0101,DEPT...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b0101,DEPTH=3...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=2,...
+Compiling module xil_defaultlib.axi_b_buffer(ID_WIDTH=2,USER_WID...
+Compiling module xil_defaultlib.axi_slice(AXI_DATA_WIDTH=32,AXI_...
+Compiling module xil_defaultlib.axi_slice_wrap(AXI_DATA_WIDTH=32...
+Compiling module xil_defaultlib.sp_ram(ADDR_WIDTH=15,NUM_WORDS=3...
+Compiling module xil_defaultlib.sp_ram_wrap_default
+Compiling module xil_defaultlib.boot_code
+Compiling module xil_defaultlib.boot_rom_wrap
+Compiling module xil_defaultlib.instr_ram_wrap_default
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b01000010,...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b01000010,...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b01000010,DEP...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=4,...
+Compiling module xil_defaultlib.axi_aw_buffer(ID_WIDTH=4,ADDR_WI...
+Compiling module xil_defaultlib.axi_ar_buffer(ID_WIDTH=4,ADDR_WI...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b0100110,D...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b0100110,D...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b0100110,DEPT...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=4,...
+Compiling module xil_defaultlib.axi_w_buffer(DATA_WIDTH=32,USER_...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b0101000,D...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b0101000,D...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b0101000,DEPT...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=4,...
+Compiling module xil_defaultlib.axi_r_buffer(DATA_WIDTH=32,USER_...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b0111,DEPT...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b0111,DEPT...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b0111,DEPTH=3...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=4,...
+Compiling module xil_defaultlib.axi_b_buffer(ID_WIDTH=4,USER_WID...
+Compiling module xil_defaultlib.axi_write_only_ctrl(AXI4_RDATA_W...
+Compiling module xil_defaultlib.axi_read_only_ctrl(AXI4_RDATA_WI...
+Compiling module xil_defaultlib.axi_mem_if_SP(AXI4_ID_WIDTH=4,AX...
+Compiling module xil_defaultlib.axi_mem_if_SP_wrap(AXI_DATA_WIDT...
+Compiling module xil_defaultlib.ram_mux(ADDR_WIDTH=16)
+Compiling module xil_defaultlib.axi_write_only_ctrl(AXI4_RDATA_W...
+Compiling module xil_defaultlib.axi_read_only_ctrl(AXI4_RDATA_WI...
+Compiling module xil_defaultlib.axi_mem_if_SP(AXI4_ID_WIDTH=4,AX...
+Compiling module xil_defaultlib.axi_mem_if_SP_wrap(AXI_DATA_WIDT...
+Compiling module xil_defaultlib.ram_mux(ADDR_WIDTH=15)
+Compiling module xil_defaultlib.cluster_clock_inverter
+Compiling module xil_defaultlib.cluster_clock_mux2
+Compiling module xil_defaultlib.adbg_tap_top
+Compiling module xil_defaultlib.adbg_axi_biu(AXI_DATA_WIDTH=32,A...
+Compiling module xil_defaultlib.adbg_crc32
+Compiling module xil_defaultlib.adbg_axi_module(AXI_DATA_WIDTH=3...
+Compiling module xil_defaultlib.adbg_or1k_status_reg(NB_CORES=1)
+Compiling module xil_defaultlib.adbg_or1k_biu(NB_CORES=1)
+Compiling module xil_defaultlib.adbg_or1k_module(NB_CORES=1)
+Compiling module xil_defaultlib.adbg_top(NB_CORES=1,AXI_DATA_WID...
+Compiling module xil_defaultlib.adv_dbg_if(NB_CORES=1,AXI_DATA_W...
+Compiling module xil_defaultlib.core_region(AXI_DATA_WIDTH=32,AX...
+Compiling module xil_defaultlib.APB_BUS
+Compiling module xil_defaultlib.spi_slave_rx
+Compiling module xil_defaultlib.pulp_clock_inverter
+Compiling module xil_defaultlib.pulp_clock_mux2
+Compiling module xil_defaultlib.spi_slave_tx
+Compiling module xil_defaultlib.spi_slave_cmd_parser
+Compiling module xil_defaultlib.spi_slave_regs
+Compiling module xil_defaultlib.spi_slave_controller
+Compiling module xil_defaultlib.onehot_to_bin(ONEHOT_WIDTH=32'b0...
+Compiling module xil_defaultlib.dc_data_buffer
+Compiling module xil_defaultlib.dc_token_ring
+Compiling module xil_defaultlib.dc_synchronizer
+Compiling module xil_defaultlib.dc_full_detector
+Compiling module xil_defaultlib.dc_token_ring_fifo_din(DATA_WIDT...
+Compiling module xil_defaultlib.dc_synchronizer(WIDTH=8)
+Compiling module xil_defaultlib.dc_token_ring_fifo_dout(DATA_WID...
+Compiling module xil_defaultlib.spi_slave_dc_fifo
+Compiling module xil_defaultlib.spi_slave_axi_plug(AXI_DATA_WIDT...
+Compiling module xil_defaultlib.spi_slave_syncro
+Compiling module xil_defaultlib.axi_spi_slave(AXI_DATA_WIDTH=32,...
+Compiling module xil_defaultlib.axi_spi_slave_wrap(AXI_DATA_WIDT...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b01000010,...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b01000010,...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b01000010,DEP...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=2,...
+Compiling module xil_defaultlib.axi_aw_buffer(ID_WIDTH=4,ADDR_WI...
+Compiling module xil_defaultlib.axi_ar_buffer(ID_WIDTH=4,ADDR_WI...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b0101000,D...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b0101000,D...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b0101000,DEPT...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=2,...
+Compiling module xil_defaultlib.axi_r_buffer(DATA_WIDTH=32,USER_...
+Compiling module xil_defaultlib.fifo_v3(DATA_WIDTH=32'b0111,DEPT...
+Compiling module xil_defaultlib.fifo_v2(DATA_WIDTH=32'b0111,DEPT...
+Compiling module xil_defaultlib.fifo(DATA_WIDTH=32'b0111,DEPTH=3...
+Compiling module xil_defaultlib.axi_single_slice(BUFFER_DEPTH=2,...
+Compiling module xil_defaultlib.axi_b_buffer(ID_WIDTH=4,USER_WID...
+Compiling module xil_defaultlib.axi2apb32(AXI4_ID_WIDTH=4,AXI4_U...
+Compiling module xil_defaultlib.axi2apb_wrap(AXI_USER_WIDTH=1,AX...
+Compiling module xil_defaultlib.apb_node(NB_MASTER=9)
+Compiling module xil_defaultlib.apb_node_wrap(NB_MASTER=9)
+Compiling module xil_defaultlib.periph_bus_wrap_default
+Compiling architecture rtl of entity xil_defaultlib.slib_input_sync [slib_input_sync_default]
+Compiling architecture rtl of entity xil_defaultlib.slib_input_filter [\slib_input_filter(size=2)\]
+Compiling architecture rtl of entity xil_defaultlib.uart_interrupt [uart_interrupt_default]
+Compiling architecture rtl of entity xil_defaultlib.slib_edge_detect [slib_edge_detect_default]
+Compiling architecture rtl of entity xil_defaultlib.uart_baudgen [uart_baudgen_default]
+Compiling architecture rtl of entity xil_defaultlib.slib_clock_div [\slib_clock_div(ratio=8)\]
+Compiling architecture rtl of entity xil_defaultlib.slib_fifo [slib_fifo_default]
+Compiling architecture rtl of entity xil_defaultlib.slib_fifo [\slib_fifo(width=11)\]
+Compiling architecture rtl of entity xil_defaultlib.uart_transmitter [uart_transmitter_default]
+Compiling architecture rtl of entity xil_defaultlib.slib_counter [slib_counter_default]
+Compiling architecture rtl of entity xil_defaultlib.slib_mv_filter [slib_mv_filter_default]
+Compiling architecture rtl of entity xil_defaultlib.slib_input_filter [slib_input_filter_default]
+Compiling architecture rtl of entity xil_defaultlib.uart_receiver [uart_receiver_default]
+Compiling architecture rtl of entity xil_defaultlib.apb_uart [apb_uart_default]
+Compiling module xil_defaultlib.apb_gpio
+Compiling module xil_defaultlib.spi_master_apb_if(BUFFER_DEPTH=8...
+Compiling module xil_defaultlib.spi_master_fifo(BUFFER_DEPTH=8)
+Compiling module xil_defaultlib.spi_master_clkgen
+Compiling module xil_defaultlib.spi_master_tx
+Compiling module xil_defaultlib.spi_master_rx
+Compiling module xil_defaultlib.spi_master_controller
+Compiling module xil_defaultlib.apb_spi_master(BUFFER_DEPTH=8)
+Compiling module xil_defaultlib.timer
+Compiling module xil_defaultlib.apb_timer_default
+Compiling module xil_defaultlib.generic_service_unit
+Compiling module xil_defaultlib.sleep_unit
+Compiling module xil_defaultlib.apb_event_unit
+Compiling module xil_defaultlib.i2c_master_bit_ctrl
+Compiling module xil_defaultlib.i2c_master_byte_ctrl
+Compiling module xil_defaultlib.apb_i2c
+Compiling module xil_defaultlib.apb_fll_if
+Compiling module xil_defaultlib.apb_pulpino(BOOT_ADDR=32'b0)
+Compiling module xil_defaultlib.apb2per(PER_ADDR_WIDTH=15)
+Compiling module xil_defaultlib.peripherals(AXI_DATA_WIDTH=32,AX...
+Compiling module xil_defaultlib.axi_FanInPrimitive_Req(AUX_WIDTH...
+Compiling module xil_defaultlib.axi_RR_Flag_Req(MAX_COUNT=3,WIDT...
+Compiling module xil_defaultlib.axi_ArbitrationTree(ID_WIDTH=5,N...
+Compiling module xil_defaultlib.axi_AR_allocator(AXI_USER_W=1,N_...
+Compiling module xil_defaultlib.axi_AW_allocator(AXI_USER_W=1,N_...
+Compiling module xil_defaultlib.generic_fifo(DATA_WIDTH=32'b0101...
+Compiling module xil_defaultlib.axi_multiplexer(DATA_WIDTH=38,N_...
+Compiling module xil_defaultlib.axi_DW_allocator(AXI_USER_W=1,N_...
+Compiling module xil_defaultlib.axi_address_decoder_BW(AXI_ID_IN...
+Compiling module xil_defaultlib.axi_address_decoder_BR(N_TARG_PO...
+Compiling module xil_defaultlib.axi_request_block(AXI_DATA_W=32,...
+Compiling module xil_defaultlib.axi_FanInPrimitive_Req(AUX_WIDTH...
+Compiling module xil_defaultlib.axi_ArbitrationTree(AUX_WIDTH=3,...
+Compiling module xil_defaultlib.axi_BW_allocator(AXI_USER_W=1,N_...
+Compiling module xil_defaultlib.axi_FanInPrimitive_Req(AUX_WIDTH...
+Compiling module xil_defaultlib.axi_ArbitrationTree(AUX_WIDTH=36...
+Compiling module xil_defaultlib.axi_BR_allocator(AXI_USER_W=1,N_...
+Compiling module xil_defaultlib.axi_address_decoder_AR(N_INIT_PO...
+Compiling module xil_defaultlib.axi_address_decoder_AW(N_INIT_PO...
+Compiling module xil_defaultlib.generic_fifo(DATA_WIDTH=32'b011,...
+Compiling module xil_defaultlib.axi_address_decoder_DW(N_INIT_PO...
+Compiling module xil_defaultlib.axi_response_block(AXI_DATA_W=32...
+Compiling module xil_defaultlib.axi_node(AXI_DATA_W=32,AXI_USER_...
+Compiling module xil_defaultlib.axi_node_intf_wrap(NB_MASTER=3,N...
+Compiling module xil_defaultlib.pulpino_default
+Compiling module xil_defaultlib.tb_pulpino
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_pulpino_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:31 . Memory (MB): peak = 1019.477 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '31' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_pulpino_behav -key {Behavioral:sim_1:Functional:tb_pulpino} -tclbatch {tb_pulpino.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_pulpino.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/tb_pulpino/stimuli" to the wave window because it has 640064 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: Simulation object /tb_pulpino/memload was not traceable in the design for the following reason:
+Vivado Simulator does not support tracing of System Verilog Dynamic Type object.
+WARNING: Simulation object /tb_pulpino/adv_dbg_if was not traceable in the design for the following reason:
+Vivado Simulator does not support tracing of System Verilog Dynamic Type object.
+WARNING: Simulation object /tb_pulpino/data_mem was not traceable in the design for the following reason:
+Vivado Simulator does not support tracing of System Verilog Dynamic Type object.
+WARNING: Simulation object /tb_pulpino/instr_mem was not traceable in the design for the following reason:
+Vivado Simulator does not support tracing of System Verilog Dynamic Type object.
+WARNING: Simulation object /tb_pulpino/event_mem_load was not traceable in the design for the following reason:
+Vivado Simulator does not support tracing of event type object.
+# run 1000ns
+WARNING: file stdout/uart could not be opened
+Using MEMLOAD method: PRELOAD
+Using zero-riscy core
+Preloading memory
+Preloading instruction memory from pulpino_text.dat
+Preloading data memory from pulpino_data.dat
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_pulpino_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:49 . Memory (MB): peak = 1019.477 ; gain = 0.000
+run all
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  5 14:23:35 2022...

@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May  6 17:02:10 2022
+# Process ID: 10216
+# Current directory: C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26928 C:\Users\hepoh\pulpino_edu\tmp\pulpino_edu\pulpino_edu.xpr
+# Log file: C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/vivado.log
+# Journal file: C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/pulpino_edu.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+add_files -norecurse {C:/Users/hepoh/pulpino_edu/rtl/components/S_box_inverted.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_194.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_16.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_148.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_192.mem C:/Users/hepoh/pulpino_edu/rtl/components/keys.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_133.mem C:/Users/hepoh/pulpino_edu/rtl/components/S_box.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_251.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_32.mem}
+add_files -norecurse {C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher_apb_wrapper.sv C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher_apb_wrapper_pkg.sv C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher.v}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_pulpino.tcl
+run 50 us
+restart
+run all
+restart
+run 50 us
+relaunch_sim
+run 50 us
+run 50 us
+restart
+run 50 us
+run 50 us
+relaunch_sim
+run 50 us
+run 50 us
+relaunch_sim
+run 50 us
+relaunch_sim
+run 50 us
+save_wave_config {C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/tb_pulpino_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/tb_pulpino_behav.wcfg
+set_property xsim.view C:/Users/hepoh/pulpino_edu/tmp/pulpino_edu/tb_pulpino_behav.wcfg [get_filesets sim_1]
+close_sim
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher_apb_wrapper_pkg.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher_apb_wrapper.sv] -no_script -reset -force -quiet
+remove_files  {C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher_apb_wrapper_pkg.sv C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher_apb_wrapper.sv}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher.v] -no_script -reset -force -quiet
+remove_files  C:/Users/hepoh/pulpino_edu/rtl/kuznechik_cipher.v
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/S_box_inverted.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/L_194.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/L_16.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/L_148.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/L_192.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/keys.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/L_133.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/S_box.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/L_251.mem] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/hepoh/pulpino_edu/rtl/components/L_32.mem] -no_script -reset -force -quiet
+remove_files  {C:/Users/hepoh/pulpino_edu/rtl/components/S_box_inverted.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_194.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_16.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_148.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_192.mem C:/Users/hepoh/pulpino_edu/rtl/components/keys.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_133.mem C:/Users/hepoh/pulpino_edu/rtl/components/S_box.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_251.mem C:/Users/hepoh/pulpino_edu/rtl/components/L_32.mem}

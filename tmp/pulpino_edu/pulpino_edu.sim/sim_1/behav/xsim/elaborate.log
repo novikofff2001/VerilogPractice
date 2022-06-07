@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c37177a13995426e9f02194940a515a4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_pulpino_behav xil_defaultlib.tb_pulpino xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'kuznechik_module' does not have a parameter named APB_ADDR_SPACE_SIZE_BYTES [C:/Users/sasha/Desktop/pulpino_edu/rtl/peripherals.sv:535]
+WARNING: [VRFC 10-5021] port 'cpu_clk_i' is not connected on this instance [C:/Users/sasha/Desktop/pulpino_edu/rtl/core_region.sv:517]
+Completed static elaboration
+WARNING: [XSIM 43-4455] File "C:/Users/sasha/Desktop/pulpino_edu/submodules/pulpino/common_cells/src/onehot_to_bin.sv" Line 34 : Unsupported feature in assertion/property/sequence 'Deferred Assertion is not supported'. It will be ignored.
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

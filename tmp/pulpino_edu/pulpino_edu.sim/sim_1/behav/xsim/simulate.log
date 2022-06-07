@@ -1,0 +1,8 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+WARNING: file stdout/uart could not be opened
+Using MEMLOAD method: PRELOAD
+Using zero-riscy core
+Preloading memory
+Preloading instruction memory from pulpino_text.dat
+Preloading data memory from pulpino_data.dat
