@@ -1,4 +1,4 @@
-#include "lib.h"
+#include "../inc/lib.h"
 
 void write_ack(int value) {
 	*ack_ptr = value;

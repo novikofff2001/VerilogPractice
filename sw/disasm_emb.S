@@ -543,19 +543,22 @@ Disassembly of section .text:
  4ee:	4501                	li	a0,0
  4f0:	3539                	jal	2fe <write_req>
  4f2:	3d7d                	jal	3b0 <is_valid>
- 4f4:	872a                	mv	a4,a0
- 4f6:	4785                	li	a5,1
- 4f8:	00f70363          	beq	a4,a5,4fe <main+0x3c>
- 4fc:	bfdd                	j	4f2 <main+0x30>
- 4fe:	0001                	nop
- 500:	4505                	li	a0,1
- 502:	3bd9                	jal	2d8 <write_ack>
- 504:	a001                	j	504 <main+0x42>
+ 4f4:	87aa                	mv	a5,a0
+ 4f6:	dff5                	beqz	a5,4f2 <main+0x30>
+ 4f8:	4505                	li	a0,1
+ 4fa:	3bf9                	jal	2d8 <write_ack>
+ 4fc:	0001                	nop
+ 4fe:	4781                	li	a5,0
+ 500:	853e                	mv	a0,a5
+ 502:	40f2                	lw	ra,28(sp)
+ 504:	4462                	lw	s0,24(sp)
+ 506:	6105                	addi	sp,sp,32
+ 508:	8082                	ret
 
-00000506 <__CTOR_LIST__>:
+0000050a <__CTOR_LIST__>:
 	...
 
-0000050e <__CTOR_END__>:
+00000512 <__CTOR_END__>:
 	...
 
 Disassembly of section .sdata:
@@ -619,7 +622,7 @@ Disassembly of section .Pulp_Chip.Info:
    c:	7550                	flw	fa2,44(a0)
    e:	706c                	flw	fa1,100(s0)
   10:	495f 666e 006f      	0x6f666e495f
-  16:	70696863          	bltu	s2,t1,726 <__DTOR_END__+0x210>
+  16:	70696863          	bltu	s2,t1,726 <__DTOR_END__+0x20c>
   1a:	6e3d                	lui	t3,0xf
   1c:	20656e6f          	jal	t3,56222 <_stack_len+0x54222>
   20:	3d757063          	bleu	s7,a0,3e0 <is_busy+0x16>

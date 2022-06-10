@@ -8,6 +8,10 @@ int main()
 	write_req(0);
 	while(1)
 	{
+	    if(is_valid()){
+	        write_ack(1);
+		break;
+	    }
 
 	}
 
